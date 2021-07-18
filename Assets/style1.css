@@ -1,0 +1,80 @@
+body, html {
+  height: 100%;
+  }
+
+.text {  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.topnav {
+    background-color: rgb(63, 29, 128);
+    overflow: hidden;
+  }
+  
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(97, 44, 141);
+  }
+
+.container {
+    width: 1024 px;
+
+    margin:auto
+  }
+
+.h1 {
+    padding: 20px 0;
+  
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+  
+    background: #333;
+  }
+
+.h2 {
+    font-size: 22px;
+  }
+
+.myinfo {
+    padding: 20px 0;
+  
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+  
+    color: #eee;
+    text-align: center;
+  
+    background: #333
+  }
+
+  .active2 {
+    border-style: solid;
+    font-size: 20px;
+  }
+
+  .eximage {
+    text-overflow: inherit;
+    text-align: center;
+  }
+
+  .flavor{
+    background: #333;
+  }
+
+  .disclaimer{
+    color:white
+  }
