@@ -28,30 +28,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'budget-screenshot.jpg',
+    title: 'Budget-Tracker',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://jrm-budget-tracker.herokuapp.com/',
+    repo: 'https://github.com/josephmartin721/JRM-HW18-ProgressiveBudget', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'employee-screenshot.jpg',
+    title: 'Employee Directory Tracker',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://josephmartin721.github.io/JRM-HW19-UserDirectory/',
+    repo: 'https://github.com/josephmartin721/JRM-HW19-UserDirectory', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'exercise-screenshot.jpg',
+    title: 'Fitness Tracker',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://workout-tracker-hw17app.herokuapp.com/',
+    repo: 'https://github.com/josephmartin721/JRM-HW17-WorkoutTracker', // if no repo, the button will not show up
   },
 ];
 
