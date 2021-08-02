@@ -21,7 +21,8 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/1HZo5x525l7vuNviunp5ifD-NcSHUUmPOOH0WaR0JCwA/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -58,7 +59,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: 'Download my resume here',
+  btn: 'Email me here!',
   email: 'josephmartin721@yahoo.com',
 };
 
@@ -80,5 +81,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
