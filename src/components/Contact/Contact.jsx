@@ -21,7 +21,9 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'josephmartin721@yahoo.com'}
+              href={
+                email ? `mailto:${email}` : 'https://www.linkedin.com/in/joseph-martin-280a8911b/'
+              }
             >
               {btn || "Let's Talk"}
             </a>
