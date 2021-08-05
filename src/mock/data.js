@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'I graduated from the University of Texas at San Antonio with a Bachelor Degree in Ahtropology.',
+  paragraphTwo:
+    'I have recently my certification in full-stack web devlopment from the UTSA Bootcamp program.',
+  paragraphThree:
+    'I hope to combine both of these skill-sets in order to prove myself as a useful asset for your company.',
   resume:
     'https://docs.google.com/document/d/1HZo5x525l7vuNviunp5ifD-NcSHUUmPOOH0WaR0JCwA/edit?usp=sharing', // if no resume, the button will not show up
 };
@@ -31,8 +34,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'budget-screenshot.jpg',
     title: 'Budget-Tracker',
-    info: '',
-    info2: '',
+    info: 'Integrated data from React apps',
+    info2: 'Data compiled was saved on a local server to insure local budget tracking.',
     url: 'https://jrm-budget-tracker.herokuapp.com/',
     repo: 'https://github.com/josephmartin721/JRM-HW18-ProgressiveBudget', // if no repo, the button will not show up
   },
@@ -40,8 +43,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'employee-screenshot.jpg',
     title: 'Employee Directory Tracker',
-    info: '',
-    info2: '',
+    info: 'This app was a proof of concept for a site that randomly generates and stores various details in an employee directory.',
+    info2: 'It is meant to be adaptable in order to provide usefulness in multiple scenarios.',
     url: 'https://josephmartin721.github.io/JRM-HW19-UserDirectory/',
     repo: 'https://github.com/josephmartin721/JRM-HW19-UserDirectory', // if no repo, the button will not show up
   },
@@ -49,7 +52,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'exercise-screenshot.jpg',
     title: 'Fitness Tracker',
-    info: '',
+    info: 'A basic app that allows for online and offline storage of personalized workout routines.',
     info2: '',
     url: 'https://workout-tracker-hw17app.herokuapp.com/',
     repo: 'https://github.com/josephmartin721/JRM-HW17-WorkoutTracker', // if no repo, the button will not show up
