@@ -25,7 +25,7 @@ export const aboutData = {
   paragraphThree:
     'I hope to combine both of these skill-sets in order to prove myself as a useful asset for your company.',
   resume:
-    'https://docs.google.com/document/d/1HZo5x525l7vuNviunp5ifD-NcSHUUmPOOH0WaR0JCwA/edit?usp=sharing', // if no resume, the button will not show up
+    'https://docs.google.com/document/d/1NXa6HqbASQLsda_IYP4OfKJsOBVFBKgArO87bbGlzf8/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
